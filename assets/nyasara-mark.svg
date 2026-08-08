@@ -1,0 +1,43 @@
+<svg width="220" height="190" viewBox="0 0 220 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="24" y1="12" x2="188" y2="172" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1D08B"/>
+      <stop offset="0.35" stop-color="#C99A45"/>
+      <stop offset="0.68" stop-color="#8E642A"/>
+      <stop offset="1" stop-color="#E4BD6B"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="0" cy="0" r="1" gradientTransform="translate(58 81) rotate(56.7) scale(22 16)">
+      <stop stop-color="#59B6AF"/>
+      <stop offset="0.36" stop-color="#174D56"/>
+      <stop offset="0.72" stop-color="#0D2630"/>
+      <stop offset="1" stop-color="#C89A45"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.92  0 1 0 0 0.65  0 0 1 0 0.25  0 0 0 0.7 0"/>
+    </filter>
+  </defs>
+
+  <!-- Architectural house line -->
+  <path d="M112 48L154 15L200 51V143" stroke="url(#gold)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Pendant cord and light -->
+  <path d="M157 18V79" stroke="url(#gold)" stroke-width="2.4" stroke-linecap="round"/>
+  <ellipse cx="157" cy="96" rx="22" ry="9" fill="#D9A74E" opacity="0.22" filter="url(#glow)"/>
+  <path d="M149 79H165L162 91H152L149 79Z" fill="url(#gold)"/>
+
+  <!-- Panel slats -->
+  <path d="M29 30V157M37 30V157M45 30V157M53 30V157M61 30V157" stroke="url(#gold)" stroke-width="3" stroke-linecap="round" opacity="0.94"/>
+  <!-- Main N sweep -->
+  <path d="M25 160C45 151 55 131 60 105C67 70 84 50 106 38C120 30 133 29 141 34C118 45 103 64 98 91C92 119 100 144 122 161C108 163 94 157 82 145C69 131 64 113 65 92" stroke="url(#gold)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Peacock feather stem -->
+  <path d="M60 142C58 121 58 101 60 82C61 64 63 49 69 35" stroke="url(#gold)" stroke-width="2.8" stroke-linecap="round"/>
+  <!-- Feather eye -->
+  <path d="M45 82C49 65 61 56 75 62C86 67 88 80 80 91C72 102 57 103 49 94C46 91 44 87 45 82Z" fill="url(#eye)" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M52 80C56 70 64 67 72 71C78 74 79 81 75 87C70 93 61 94 55 89C52 87 51 84 52 80Z" fill="#143A45" stroke="#E0B563" stroke-width="1.5"/>
+  <!-- Feather barbs -->
+  <path d="M61 101C48 97 39 91 32 82M61 109C46 108 36 105 27 99M61 117C46 119 35 119 24 116M61 125C47 130 37 133 28 135M62 96C75 94 85 89 92 82M62 106C77 105 87 102 96 96M62 116C77 119 88 121 99 121M62 125C76 132 86 137 95 142" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- Lower architectural baseline -->
+  <path d="M126 161H200" stroke="url(#gold)" stroke-width="4" stroke-linecap="round"/>
+</svg>
